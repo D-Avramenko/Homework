@@ -1,0 +1,69 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html" />
+    <meta name="author" content="admin" />
+
+    <title>Theme for Blogging</title>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style2right.css" />
+
+</head>
+<body>
+<div class="page">
+        <header>
+            <div class="container flex-row">
+                <div class="logo">
+                    <a href="#">Tempo</a>
+                    <a href="#">The best blogging theme</a>
+                </div>
+                <nav>
+                    <ul class="flex-row">
+                        <li><a href="#">Font page</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Site map</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <div class="slider flex-center">
+
+            <h1>Beautiful WordPress theme for Blogging</h1>
+            <h2>the best WordPress theme developed by myThem.es</h2>
+        </div>
+
+  <main>
+    <div class="container">
+    
+    <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga aut aliquam maiores esse corporis sapiente similique sunt voluptatem obcaecati culpa libero, eos neque itaque deserunt, praesentium ex facilis voluptatibus omnis!</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quos repudiandae nam quam in praesentium perferendis. Animi ipsum adipisci nisi, nihil aperiam nemo, exercitationem recusandae fugiat odit, laboriosam eveniet beatae.</div>
+  </div>
+      
+      </main>
+  
+  <footer>
+
+                <div class="footer-top">
+                    <div class="container flex-center-row">
+                        Copyright &copy; Powered by  <span> WordPress</span>. Designed by  <span> myThem.es</span>.
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container flex-center-row">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="behance"><i class="fa fa-behance"></i></a>
+                        <a href="#" class="dropbox"><i class="fa fa-dropbox"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="rss"><i class="fa fa-rss"></i></a>
+                    </div>
+                </div>
+
+        </footer>
+  
+    </div>
+    </body>
+    </html>

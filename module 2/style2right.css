@@ -1,0 +1,172 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    background: #e5e5e5;
+    color: #333332;
+    font-size: 1.6rem;
+    line-height: 38px;
+    text-align: justify;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+.page{
+    max-width: 1170px;
+    box-shadow: 0 0 50px 1px rgba(0, 0, 0, 0.4);
+    margin: 80px auto;
+    background: #ffffff;
+}
+
+.container{
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-center-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*header*/
+
+header{
+    padding: 30px 0;
+}
+
+.logo a{
+    display: block;
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+
+.logo a:first-of-type{
+    font-size: 1.8rem;
+}
+
+.logo a:nth-of-type(2){
+    font-size: 1.2rem;
+}
+
+nav ul{
+    width: 350px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    color: rgba(69, 69, 69, 0.8);
+    font-size: 1.4rem;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #000000;
+}
+
+/*slider*/
+
+.slider{
+    height: 400px;
+    background: url("http://tiffany-v.com/wp-content/uploads/2016/10/about-img-2.jpg") no-repeat top -250px center / cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+}
+
+
+.slider h1{
+    max-width: 780px;
+    font-size: 4rem;
+    text-shadow: 0 2px 25px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    z-index: 2;
+}
+
+.slider h2{
+    max-width: 780px;
+    font-size: 2.4rem;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+    color: rgba(255, 255, 255, 0.8);
+    z-index: 2;
+}
+
+.slider h2:hover{
+    color: #ffffff;
+}
+
+
+
+/*footer*/
+
+footer{
+    color: #a6a6a6;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+
+}
+.footer-top{
+    padding: 25px 0;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.footer-top span{
+    color: #ababab;
+    font-weight: 900;
+}
+
+.footer-bottom{
+    padding: 30px 0;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.footer-bottom a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    color: #b9d8e4;
+    margin: 0 5px;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 40px;
+}
+
+.footer-bottom a.twitter{
+    background: #02a0d8;
+}
+
+.footer-bottom a.behance{
+    background: #025de7;
+}
+
+.footer-bottom a.dropbox{
+    background: #0277bd;
+}
+
+.footer-bottom a.facebook{
+    background: #24518b;
+}
+
+.footer-bottom a.rss{
+    background: #e76c02;
+}
